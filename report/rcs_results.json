@@ -1,0 +1,549 @@
+{
+ "expected_snr_1m2_1m_db": 70.4,
+ "K": {
+  "1.0": {
+   "drone": [
+    {
+     "name": "R18",
+     "label": "drone tethered, nominal 0.5 m",
+     "range_m": 0.59,
+     "echo_db": 28.9,
+     "rcs_dbsm": -50.8
+    },
+    {
+     "name": "R14",
+     "label": "drone tethered, nominal 1 m",
+     "range_m": 1.17,
+     "echo_db": 20.6,
+     "rcs_dbsm": -47.1
+    },
+    {
+     "name": "R13",
+     "label": "drone tethered, nominal 1.7 m",
+     "range_m": 1.87,
+     "echo_db": 13.6,
+     "rcs_dbsm": -46.0
+    }
+   ],
+   "drop_db": 15.3,
+   "r4_drop_db": 20.0,
+   "rcs_spread_db": 4.8
+  },
+  "1.5": {
+   "drone": [
+    {
+     "name": "R18",
+     "label": "drone tethered, nominal 0.5 m",
+     "range_m": 0.59,
+     "echo_db": 35.2,
+     "rcs_dbsm": -44.5
+    },
+    {
+     "name": "R14",
+     "label": "drone tethered, nominal 1 m",
+     "range_m": 1.17,
+     "echo_db": 25.0,
+     "rcs_dbsm": -42.7
+    },
+    {
+     "name": "R13",
+     "label": "drone tethered, nominal 1.7 m",
+     "range_m": 1.87,
+     "echo_db": 16.7,
+     "rcs_dbsm": -42.8
+    }
+   ],
+   "drop_db": 18.5,
+   "r4_drop_db": 20.0,
+   "rcs_spread_db": 1.8
+  },
+  "1.65": {
+   "drone": [
+    {
+     "name": "R18",
+     "label": "drone tethered, nominal 0.5 m",
+     "range_m": 0.59,
+     "echo_db": 37.2,
+     "rcs_dbsm": -42.5
+    },
+    {
+     "name": "R14",
+     "label": "drone tethered, nominal 1 m",
+     "range_m": 1.17,
+     "echo_db": 26.3,
+     "rcs_dbsm": -41.4
+    },
+    {
+     "name": "R13",
+     "label": "drone tethered, nominal 1.7 m",
+     "range_m": 1.87,
+     "echo_db": 17.6,
+     "rcs_dbsm": -41.9
+    }
+   ],
+   "drop_db": 19.6,
+   "r4_drop_db": 20.0,
+   "rcs_spread_db": 1.1
+  },
+  "1.75": {
+   "drone": [
+    {
+     "name": "R18",
+     "label": "drone tethered, nominal 0.5 m",
+     "range_m": 0.59,
+     "echo_db": 38.5,
+     "rcs_dbsm": -41.2
+    },
+    {
+     "name": "R14",
+     "label": "drone tethered, nominal 1 m",
+     "range_m": 1.17,
+     "echo_db": 27.2,
+     "rcs_dbsm": -40.5
+    },
+    {
+     "name": "R13",
+     "label": "drone tethered, nominal 1.7 m",
+     "range_m": 1.87,
+     "echo_db": 18.2,
+     "rcs_dbsm": -41.3
+    }
+   ],
+   "drop_db": 20.3,
+   "r4_drop_db": 20.0,
+   "rcs_spread_db": 0.8
+  },
+  "1.9": {
+   "drone": [
+    {
+     "name": "R18",
+     "label": "drone tethered, nominal 0.5 m",
+     "range_m": 0.59,
+     "echo_db": 40.5,
+     "rcs_dbsm": -39.2
+    },
+    {
+     "name": "R14",
+     "label": "drone tethered, nominal 1 m",
+     "range_m": 1.17,
+     "echo_db": 28.5,
+     "rcs_dbsm": -39.2
+    },
+    {
+     "name": "R13",
+     "label": "drone tethered, nominal 1.7 m",
+     "range_m": 1.87,
+     "echo_db": 19.1,
+     "rcs_dbsm": -40.4
+    }
+   ],
+   "drop_db": 21.4,
+   "r4_drop_db": 20.0,
+   "rcs_spread_db": 1.2
+  },
+  "2.0": {
+   "drone": [
+    {
+     "name": "R18",
+     "label": "drone tethered, nominal 0.5 m",
+     "range_m": 0.59,
+     "echo_db": 41.9,
+     "rcs_dbsm": -37.8
+    },
+    {
+     "name": "R14",
+     "label": "drone tethered, nominal 1 m",
+     "range_m": 1.17,
+     "echo_db": 29.4,
+     "rcs_dbsm": -38.3
+    },
+    {
+     "name": "R13",
+     "label": "drone tethered, nominal 1.7 m",
+     "range_m": 1.87,
+     "echo_db": 19.7,
+     "rcs_dbsm": -39.9
+    }
+   ],
+   "drop_db": 22.2,
+   "r4_drop_db": 20.0,
+   "rcs_spread_db": 2.1
+  }
+ },
+ "test_check": {
+  "1.5": {
+   "recordings": [
+    {
+     "name": "T09",
+     "label": "pole, room 1",
+     "range_m": 0.82,
+     "echo_db": 30.3,
+     "rcs_dbsm": -43.6
+    },
+    {
+     "name": "T10",
+     "label": "pole, room 1",
+     "range_m": 1.41,
+     "echo_db": 21.6,
+     "rcs_dbsm": -43.0
+    },
+    {
+     "name": "U05",
+     "label": "sofa arm, room 2",
+     "range_m": 1.29,
+     "echo_db": 24.6,
+     "rcs_dbsm": -41.5
+    },
+    {
+     "name": "U04",
+     "label": "sofa arm, room 2",
+     "range_m": 1.64,
+     "echo_db": 16.7,
+     "rcs_dbsm": -45.1
+    }
+   ],
+   "pairs": {
+    "T09->T10": {
+     "drop_db": 8.7,
+     "r4_drop_db": 9.4
+    },
+    "U05->U04": {
+     "drop_db": 7.9,
+     "r4_drop_db": 4.2
+    }
+   }
+  },
+  "1.65": {
+   "recordings": [
+    {
+     "name": "T09",
+     "label": "pole, room 1",
+     "range_m": 0.82,
+     "echo_db": 32.0,
+     "rcs_dbsm": -41.9
+    },
+    {
+     "name": "T10",
+     "label": "pole, room 1",
+     "range_m": 1.41,
+     "echo_db": 22.7,
+     "rcs_dbsm": -41.9
+    },
+    {
+     "name": "U05",
+     "label": "sofa arm, room 2",
+     "range_m": 1.29,
+     "echo_db": 26.0,
+     "rcs_dbsm": -40.1
+    },
+    {
+     "name": "U04",
+     "label": "sofa arm, room 2",
+     "range_m": 1.64,
+     "echo_db": 17.6,
+     "rcs_dbsm": -44.3
+    }
+   ],
+   "pairs": {
+    "T09->T10": {
+     "drop_db": 9.3,
+     "r4_drop_db": 9.4
+    },
+    "U05->U04": {
+     "drop_db": 8.4,
+     "r4_drop_db": 4.2
+    }
+   }
+  },
+  "1.75": {
+   "recordings": [
+    {
+     "name": "T09",
+     "label": "pole, room 1",
+     "range_m": 0.82,
+     "echo_db": 33.1,
+     "rcs_dbsm": -40.7
+    },
+    {
+     "name": "T10",
+     "label": "pole, room 1",
+     "range_m": 1.41,
+     "echo_db": 23.4,
+     "rcs_dbsm": -41.1
+    },
+    {
+     "name": "U05",
+     "label": "sofa arm, room 2",
+     "range_m": 1.29,
+     "echo_db": 26.9,
+     "rcs_dbsm": -39.1
+    },
+    {
+     "name": "U04",
+     "label": "sofa arm, room 2",
+     "range_m": 1.64,
+     "echo_db": 18.2,
+     "rcs_dbsm": -43.7
+    }
+   ],
+   "pairs": {
+    "T09->T10": {
+     "drop_db": 9.7,
+     "r4_drop_db": 9.4
+    },
+    "U05->U04": {
+     "drop_db": 8.7,
+     "r4_drop_db": 4.2
+    }
+   }
+  },
+  "1.9": {
+   "recordings": [
+    {
+     "name": "T09",
+     "label": "pole, room 1",
+     "range_m": 0.82,
+     "echo_db": 34.9,
+     "rcs_dbsm": -39.0
+    },
+    {
+     "name": "T10",
+     "label": "pole, room 1",
+     "range_m": 1.41,
+     "echo_db": 24.5,
+     "rcs_dbsm": -40.0
+    },
+    {
+     "name": "U05",
+     "label": "sofa arm, room 2",
+     "range_m": 1.29,
+     "echo_db": 28.3,
+     "rcs_dbsm": -37.7
+    },
+    {
+     "name": "U04",
+     "label": "sofa arm, room 2",
+     "range_m": 1.64,
+     "echo_db": 19.0,
+     "rcs_dbsm": -42.8
+    }
+   ],
+   "pairs": {
+    "T09->T10": {
+     "drop_db": 10.4,
+     "r4_drop_db": 9.4
+    },
+    "U05->U04": {
+     "drop_db": 9.3,
+     "r4_drop_db": 4.2
+    }
+   }
+  },
+  "2.0": {
+   "recordings": [
+    {
+     "name": "T09",
+     "label": "pole, room 1",
+     "range_m": 0.82,
+     "echo_db": 36.1,
+     "rcs_dbsm": -37.8
+    },
+    {
+     "name": "T10",
+     "label": "pole, room 1",
+     "range_m": 1.41,
+     "echo_db": 25.2,
+     "rcs_dbsm": -39.3
+    },
+    {
+     "name": "U05",
+     "label": "sofa arm, room 2",
+     "range_m": 1.29,
+     "echo_db": 29.3,
+     "rcs_dbsm": -36.7
+    },
+    {
+     "name": "U04",
+     "label": "sofa arm, room 2",
+     "range_m": 1.64,
+     "echo_db": 19.6,
+     "rcs_dbsm": -42.3
+    }
+   ],
+   "pairs": {
+    "T09->T10": {
+     "drop_db": 10.9,
+     "r4_drop_db": 9.4
+    },
+    "U05->U04": {
+     "drop_db": 9.7,
+     "r4_drop_db": 4.2
+    }
+   }
+  }
+ },
+ "neighbour_rows_db": {
+  "R18": 2.77,
+  "R14": 2.73,
+  "R13": 2.65,
+  "T09": 2.7,
+  "T10": 3.27,
+  "U05": 3.11,
+  "U04": 2.54
+ },
+ "empty_control": {
+  "1.65": [
+   {
+    "name": "R01",
+    "row_m": 6.09,
+    "echo_db": 13.6
+   },
+   {
+    "name": "R02",
+    "row_m": 6.09,
+    "echo_db": 14.2
+   },
+   {
+    "name": "R10",
+    "row_m": 4.57,
+    "echo_db": 10.7
+   },
+   {
+    "name": "R27",
+    "row_m": 3.75,
+    "echo_db": 10.2
+   },
+   {
+    "name": "R28",
+    "row_m": 4.1,
+    "echo_db": 9.4
+   },
+   {
+    "name": "T01",
+    "row_m": 3.75,
+    "echo_db": 8.6
+   },
+   {
+    "name": "T04",
+    "row_m": 6.09,
+    "echo_db": 15.2
+   },
+   {
+    "name": "T05",
+    "row_m": 6.09,
+    "echo_db": 13.6
+   },
+   {
+    "name": "U01",
+    "row_m": 4.1,
+    "echo_db": 8.7
+   }
+  ],
+  "1.9": [
+   {
+    "name": "R01",
+    "row_m": 6.09,
+    "echo_db": 15.1
+   },
+   {
+    "name": "R02",
+    "row_m": 6.09,
+    "echo_db": 15.9
+   },
+   {
+    "name": "R10",
+    "row_m": 4.57,
+    "echo_db": 11.5
+   },
+   {
+    "name": "R27",
+    "row_m": 3.75,
+    "echo_db": 11.0
+   },
+   {
+    "name": "R28",
+    "row_m": 4.1,
+    "echo_db": 10.2
+   },
+   {
+    "name": "T01",
+    "row_m": 3.75,
+    "echo_db": 9.3
+   },
+   {
+    "name": "T04",
+    "row_m": 6.09,
+    "echo_db": 17.1
+   },
+   {
+    "name": "T05",
+    "row_m": 6.09,
+    "echo_db": 15.3
+   },
+   {
+    "name": "U01",
+    "row_m": 4.1,
+    "echo_db": 9.5
+   }
+  ],
+  "2.0": [
+   {
+    "name": "R01",
+    "row_m": 6.09,
+    "echo_db": 15.7
+   },
+   {
+    "name": "R02",
+    "row_m": 6.09,
+    "echo_db": 16.6
+   },
+   {
+    "name": "R10",
+    "row_m": 4.57,
+    "echo_db": 11.8
+   },
+   {
+    "name": "R27",
+    "row_m": 3.75,
+    "echo_db": 11.3
+   },
+   {
+    "name": "R28",
+    "row_m": 4.1,
+    "echo_db": 10.5
+   },
+   {
+    "name": "T01",
+    "row_m": 3.75,
+    "echo_db": 9.6
+   },
+   {
+    "name": "T04",
+    "row_m": 6.09,
+    "echo_db": 17.8
+   },
+   {
+    "name": "T05",
+    "row_m": 6.09,
+    "echo_db": 16.0
+   },
+   {
+    "name": "U01",
+    "row_m": 4.1,
+    "echo_db": 9.8
+   }
+  ]
+ },
+ "person_K2": [
+  {
+   "name": "R07",
+   "rcs_mean_dbsm": -10.8,
+   "rcs_median_frame_dbsm": -15.1
+  },
+  {
+   "name": "R08",
+   "rcs_mean_dbsm": -9.7,
+   "rcs_median_frame_dbsm": -13.7
+  }
+ ]
+}

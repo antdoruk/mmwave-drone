@@ -1,0 +1,24 @@
+# md5 checksums of the published copies of the frozen files. mmwd/freeze.py checks the
+# classification files and the model against this list before evaluating anything.
+# This confirms that the current files match this list; it does not prove which files
+# were used before the test results were seen (that rests on the author's account).
+# Checksums are of the published copies (recomputed after a comment-only clean-up; the
+# code is unchanged). The checksums the test-day check passed against are in
+# FROZEN_original.txt. Changed after freezing, without effect on how stored recordings
+# are read or classified:
+# session.py and scripts/record.py (naming and saving new recordings; session.py also
+# rejects malformed files when loading), tlv.py (rejects malformed packets), phase.py,
+# scripts/check_board.py and scripts/eval_test.py (input checks, exit codes), and console
+# messages or comments only in sim.py, cli.py, radar.py and a few scripts.
+d41d8cd98f00b204e9800998ecf8427e  mmwd/__init__.py
+c7fc92125236a3143429918b647b8c09  mmwd/classify.py
+cea34f90f944835d1c9309fd46528852  mmwd/cli.py
+f2b6e1024a801460680acdef84e85806  mmwd/config.py
+ed259a180389f99f4b60929788799340  mmwd/features.py
+99af6a1d5d945c860692f4404b53d401  mmwd/phase.py
+c32fa432fa46f9d975500f543a3b879a  mmwd/radar.py
+41663964857c352a128576720f5637f3  mmwd/session.py
+11fc33e532125731a943e1c3c80c3e3e  mmwd/sim.py
+e04c12a659b535447d70bcb50282ed99  mmwd/tlv.py
+efe8b457c8f4c4d31873340bd034b535  configs/md_1tx.cfg
+e82b4413e916c57e12df0dc27f7fd543  models/frozen/model_frozen.joblib

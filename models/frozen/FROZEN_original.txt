@@ -1,0 +1,14 @@
+# Checksums of the original files at the time of the independent test (before the
+# comment-only clean-up for publication). scripts/eval_test.py passed against these.
+d41d8cd98f00b204e9800998ecf8427e  mmwd/__init__.py
+c721d3e88fb953f33842606cdaecf265  mmwd/classify.py
+c21d651211ad12ff62a8a7cd1ba063f7  mmwd/cli.py
+f2b6e1024a801460680acdef84e85806  mmwd/config.py
+a547306044b23f56c8960bdea90900e1  mmwd/features.py
+7d6c19201e9462409acc6066caffffaa  mmwd/phase.py
+d35622e4076348338908e7a07344b1b3  mmwd/radar.py
+9204a19485063d259c1feeed6f10113e  mmwd/session.py
+f91ba13484ee801f01d76526d2a7415f  mmwd/sim.py
+1904c3429db05aeff84b1180a5333f7f  mmwd/tlv.py
+efe8b457c8f4c4d31873340bd034b535  configs/md_1tx.cfg
+e82b4413e916c57e12df0dc27f7fd543  models/frozen/model_frozen.joblib

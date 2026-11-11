@@ -1,0 +1,547 @@
+{
+ "gate_db": 8.0,
+ "model": "model_frozen.joblib",
+ "recordings": {
+  "T01_empty_0m_0deg": {
+   "frames": 116,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 1.0,
+    "unsure": 0.0,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 4.57,
+   "range_p10_p90_m": [
+    3.23,
+    5.86
+   ],
+   "snr_median_db": 3.6,
+   "window_snr_max_db": 4.1,
+   "note": "oda 1, bos"
+  },
+  "T02_human_2p5m_0deg": {
+   "frames": 114,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.018,
+    "human": 0.982,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 2.23,
+   "range_p10_p90_m": [
+    1.64,
+    2.93
+   ],
+   "snr_median_db": 19.5,
+   "window_snr_max_db": 23.0,
+   "note": "oda 1, ileri geri yuruyor"
+  },
+  "T03_fan_1m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.12,
+    "human": 0.0,
+    "fan": 0.88,
+    "drone": 0.0
+   },
+   "range_median_m": 1.05,
+   "range_p10_p90_m": [
+    1.05,
+    1.05
+   ],
+   "snr_median_db": 21.8,
+   "window_snr_max_db": 23.5,
+   "note": "oda 1, kademe 3, karsidan"
+  },
+  "T04_empty_0m_0deg": {
+   "frames": 116,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.966,
+    "unsure": 0.034,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 5.97,
+   "range_p10_p90_m": [
+    3.37,
+    6.09
+   ],
+   "snr_median_db": 6.6,
+   "window_snr_max_db": 8.1,
+   "note": "oda 1, bos, dunku yukseklik"
+  },
+  "T05_empty_0m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 1.0,
+    "unsure": 0.0,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 4.74,
+   "range_p10_p90_m": [
+    3.4,
+    6.09
+   ],
+   "snr_median_db": 3.8,
+   "window_snr_max_db": 6.3,
+   "note": "oda 1, bos, ben radarin 1 m arkasinda duruyorum"
+  },
+  "T06_human_2p5m_0deg": {
+   "frames": 69,
+   "seconds": 18.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.029,
+    "human": 0.971,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 2.34,
+   "range_p10_p90_m": [
+    1.87,
+    3.03
+   ],
+   "snr_median_db": 19.0,
+   "window_snr_max_db": 23.0,
+   "note": "oda 1, ileri geri yuruyor, dunku yukseklik"
+  },
+  "T07_human_2p5m_0deg": {
+   "frames": 115,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.07,
+    "human": 0.93,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 2.46,
+   "range_p10_p90_m": [
+    1.99,
+    3.04
+   ],
+   "snr_median_db": 17.3,
+   "window_snr_max_db": 20.0,
+   "note": "oda 1, ileri geri yuruyor, dunku yukseklik"
+  },
+  "T08_drone_0p5m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.017,
+    "unsure": 0.068,
+    "human": 0.094,
+    "fan": 0.0,
+    "drone": 0.821
+   },
+   "range_median_m": 0.82,
+   "range_p10_p90_m": [
+    0.82,
+    0.83
+   ],
+   "snr_median_db": 14.0,
+   "window_snr_max_db": 17.8,
+   "note": "oda 1, sopada sabit"
+  },
+  "T09_drone_0p5m_0deg": {
+   "frames": 115,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.017,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.983
+   },
+   "range_median_m": 0.82,
+   "range_p10_p90_m": [
+    0.82,
+    0.82
+   ],
+   "snr_median_db": 14.5,
+   "window_snr_max_db": 15.4,
+   "note": "oda 1, sopada sabit, ikinci deneme"
+  },
+  "T10_drone_1p2m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.017,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.983
+   },
+   "range_median_m": 1.41,
+   "range_p10_p90_m": [
+    1.29,
+    1.41
+   ],
+   "snr_median_db": 9.6,
+   "window_snr_max_db": 10.1,
+   "note": "oda 1, sopada sabit"
+  },
+  "T11_fan_human_1p5m_0deg": {
+   "frames": 116,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.621,
+    "human": 0.0,
+    "fan": 0.379,
+    "drone": 0.0
+   },
+   "range_median_m": 1.17,
+   "range_p10_p90_m": [
+    1.17,
+    1.17
+   ],
+   "snr_median_db": 21.1,
+   "window_snr_max_db": 22.3,
+   "note": "oda 1, fan 1 m kademe 3, ben 1.5 m yerinde yuruyorum",
+   "object_share": 1.0
+  },
+  "T12_fan_human_0p7m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.906,
+    "human": 0.0,
+    "fan": 0.094,
+    "drone": 0.0
+   },
+   "range_median_m": 1.17,
+   "range_p10_p90_m": [
+    0.7,
+    1.17
+   ],
+   "snr_median_db": 21.8,
+   "window_snr_max_db": 26.0,
+   "note": "oda 1, fan 1 m kademe 3, ben 0.7 m fanin onunde yana kaymis, yerinde yuruyorum",
+   "object_share": 0.72
+  },
+  "T13_drone_human_1p3m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.598,
+    "human": 0.0,
+    "fan": 0.034,
+    "drone": 0.368
+   },
+   "range_median_m": 0.94,
+   "range_p10_p90_m": [
+    0.94,
+    1.64
+   ],
+   "snr_median_db": 14.8,
+   "window_snr_max_db": 21.8,
+   "note": "oda 1, drone masada 0.72 m, ben 1.3 m yana kaymis yerinde yuruyorum",
+   "object_share": 0.56
+  },
+  "U01_empty_0m_0deg": {
+   "frames": 114,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 1.0,
+    "unsure": 0.0,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 4.22,
+   "range_p10_p90_m": [
+    2.11,
+    5.86
+   ],
+   "snr_median_db": 3.7,
+   "window_snr_max_db": 4.3,
+   "note": "oda 2, 18 m2, bos, ben radarin 1 m arkasinda duruyorum"
+  },
+  "U02_human_2p5m_0deg": {
+   "frames": 115,
+   "seconds": 29.9,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.017,
+    "human": 0.983,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 2.23,
+   "range_p10_p90_m": [
+    1.64,
+    2.69
+   ],
+   "snr_median_db": 20.2,
+   "window_snr_max_db": 25.7,
+   "note": "oda 2, ileri geri yuruyor"
+  },
+  "U03_fan_1p5m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.017,
+    "human": 0.0,
+    "fan": 0.983,
+    "drone": 0.0
+   },
+   "range_median_m": 1.64,
+   "range_p10_p90_m": [
+    1.64,
+    1.64
+   ],
+   "snr_median_db": 23.5,
+   "window_snr_max_db": 24.4,
+   "note": "oda 2, kademe 3, karsidan"
+  },
+  "U04_drone_1p8m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 1.0,
+    "unsure": 0.0,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 1.64,
+   "range_p10_p90_m": [
+    1.64,
+    2.87
+   ],
+   "snr_median_db": 6.6,
+   "window_snr_max_db": 7.5,
+   "note": "oda 2, drone koltuk kolunda battaniye uzerinde, mesafe tahmini"
+  },
+  "U05_drone_1p1m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.017,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.983
+   },
+   "range_median_m": 1.29,
+   "range_p10_p90_m": [
+    1.29,
+    1.29
+   ],
+   "snr_median_db": 11.9,
+   "window_snr_max_db": 12.6,
+   "note": "oda 2, drone koltuk kolunda, yaklastirildi"
+  },
+  "U06_drone_1p2m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.026,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.974
+   },
+   "range_median_m": 0.94,
+   "range_p10_p90_m": [
+    0.82,
+    1.05
+   ],
+   "snr_median_db": 13.6,
+   "window_snr_max_db": 17.0,
+   "note": "oda 2, serbest ucus, 1-1.5 m arasi, ben radarin arkasinda kumandayla"
+  },
+  "U07_drone_1p3m_0deg": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.017,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.983
+   },
+   "range_median_m": 1.05,
+   "range_p10_p90_m": [
+    0.82,
+    1.17
+   ],
+   "snr_median_db": 12.6,
+   "window_snr_max_db": 17.2,
+   "note": "oda 2, serbest ucus 2. kayit, 1-1.5 m arasi, ben radarin arkasinda kumandayla"
+  },
+  "T01x_empty_radar_reversed": {
+   "frames": 115,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.157,
+    "unsure": 0.843,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 6.09,
+   "range_p10_p90_m": [
+    3.99,
+    6.09
+   ],
+   "snr_median_db": 10.3,
+   "window_snr_max_db": 11.0,
+   "note": "oda 1, bos"
+  },
+  "T03x_fan_1m_radar_18cm_lower": {
+   "frames": 117,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 1.0,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 0.94,
+   "range_p10_p90_m": [
+    0.94,
+    1.05
+   ],
+   "snr_median_db": 27.2,
+   "window_snr_max_db": 29.6,
+   "note": "oda 1, kademe 3, karsidan"
+  },
+  "T06x_human_connection_lost": {
+   "error": "no range-Doppler frames"
+  },
+  "T13c_drone_table_check_before_T13": {
+   "frames": 37,
+   "seconds": 10.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.054,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.946
+   },
+   "range_median_m": 0.94,
+   "range_p10_p90_m": [
+    0.94,
+    0.94
+   ],
+   "snr_median_db": 13.5,
+   "window_snr_max_db": 14.7,
+   "note": "kontrol, drone masada, ben radarin arkasinda"
+  },
+  "T13x_drone_human_drone_not_visible": {
+   "frames": 116,
+   "seconds": 30.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.017,
+    "human": 0.983,
+    "fan": 0.0,
+    "drone": 0.0
+   },
+   "range_median_m": 1.64,
+   "range_p10_p90_m": [
+    1.5,
+    1.76
+   ],
+   "snr_median_db": 19.3,
+   "window_snr_max_db": 21.8,
+   "note": "oda 1, drone masada 0.72 m, ben 1.3 m yana kaymis yerinde yuruyorum"
+  }
+ },
+ "T08_fall_s": 23.5,
+ "T08_before_fall": {
+  "frames": 91,
+  "seconds": 23.5,
+  "labels": {
+   "empty": 0.0,
+   "unsure": 0.022,
+   "human": 0.0,
+   "fan": 0.0,
+   "drone": 0.978
+  },
+  "range_median_m": 0.82,
+  "range_p10_p90_m": [
+   0.82,
+   0.82
+  ],
+  "snr_median_db": 14.0,
+  "window_snr_max_db": 15.6,
+  "note": "oda 1, sopada sabit"
+ },
+ "table_mount": {
+  "P01_prop_ok_0p5m_0deg": {
+   "frames": 77,
+   "seconds": 20.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.221,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.779
+   },
+   "range_median_m": 0.59,
+   "range_p10_p90_m": [
+    0.59,
+    0.59
+   ],
+   "snr_median_db": 17.3,
+   "window_snr_max_db": 17.8,
+   "note": "saglam, tam gaz"
+  },
+  "P02_prop_ok_0p5m_0deg": {
+   "frames": 77,
+   "seconds": 20.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.455,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.545
+   },
+   "range_median_m": 0.59,
+   "range_p10_p90_m": [
+    0.59,
+    0.59
+   ],
+   "snr_median_db": 18.8,
+   "window_snr_max_db": 20.1,
+   "note": "saglam, tam gaz, makas yok"
+  },
+  "P06_prop_ok_end_0p6m_0deg": {
+   "frames": 56,
+   "seconds": 15.0,
+   "labels": {
+    "empty": 0.0,
+    "unsure": 0.714,
+    "human": 0.0,
+    "fan": 0.0,
+    "drone": 0.286
+   },
+   "range_median_m": 0.7,
+   "range_p10_p90_m": [
+    0.7,
+    0.7
+   ],
+   "snr_median_db": 17.3,
+   "window_snr_max_db": 18.3,
+   "note": "yeni saglam pervane, 60 cm"
+  }
+ }
+}
